@@ -66,8 +66,8 @@ h2 {
 }
 
 .navigation a:hover {
-  transition: 0.5s;
-  font-weight: 600;
+  transition: 1s;
+  font-weight: 500;
   color: #e4eaf2;
 }
 
@@ -85,14 +85,20 @@ h2 {
   color: #e4eaf2;
   text-shadow: 0px 0px 20px #e4eaf2;
 }
-.navigation img {
+#logo {
   padding-left: -5em;
   border-radius: 50px;
   width: 5em;
 }
-.navigation img:hover {
+
+#logo:hover {
   transition: 1s;
   box-shadow: 0px 2px 10px #e4eaf2;
+}
+.navigation img {
+  width: 2em;
+}
+.navigation img:hover {
 }
 .navigation div {
   flex-grow: 1;
@@ -141,6 +147,7 @@ h2 {
   margin-top: -4em;
   margin-left: 5em;
   margin-right: 5em;
+  box-shadow: 0 0 2em #262626;
 }
 .soy h2 {
   margin-top: -1em;
@@ -152,7 +159,7 @@ h2 {
   display: flex;
   flex-flow: row;
   align-items: center;
-  background: linear-gradient(170deg, #f2e205,  #b7bf7a, #e4eaf2);
+  background: linear-gradient(170deg, #f2e205, #b7bf7a, #e4eaf2);
   margin-top: 5em;
   margin-left: -5em;
   margin-right: -1em;
@@ -204,15 +211,16 @@ h2 {
   display: flex;
   flex-flow: row;
   align-items: center;
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .trabajo h1 {
   margin-top: -1.5em;
   font-size: 1.9em;
-  margin-bottom: -0.5em;
+  margin-bottom: 1em;
 }
+
 .trabajo a {
   display: flex;
   flex-flow: column;
@@ -228,7 +236,7 @@ h2 {
 .trabajo a:hover {
   transition: 1s;
   border-radius: 2em;
-  transition: 3s;
+  transition: 1s;
   background: linear-gradient(170deg, #f2e205, #b7bf7a);
   margin-top: 2em;
   padding: 3em;
@@ -241,7 +249,7 @@ h2 {
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  margin-top: 1em;
+  margin-top: 0em;
 }
 
 #caja_trabajos a img {
@@ -256,6 +264,22 @@ h2 {
   margin-bottom: 4em;
 }
 
-
-
 /*Contacto*/
+
+.contacto {
+  display: flex;
+  flex-flow: row;
+  flex-basis: 3;
+  justify-content: center;
+  margin-top: 5em;
+  text-align: center;
+  background: linear-gradient(320deg, #f2e205, #b7bf7a, #e4eaf2);
+  margin-left: -5em;
+  margin-right: -5em;
+  padding: 9em;
+  margin-bottom: -5em;
+}
+
+.contacto img {
+  width: 2.5em;
+}
