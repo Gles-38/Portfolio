@@ -1,0 +1,101 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css?family=Quattrocento:400,700");
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic");
+
+colores {
+  color: #262626;
+  color: #54839b;
+  color: #f2e3d0;
+  color: #faebd6;
+  color: #328c59;
+  color: #8b458c;
+  color: #92c0ca;
+  color: #b9b7b5;
+}
+
+h1 {
+  font-family: "Quattrocento";
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #54839b;
+  padding: 0.1em;
+}
+h2 {
+  color: #92c0ca;
+  font-family: "Quattrocento";
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+h3 {
+  color: #f2f2f2;
+  background-color: #262626;
+  font-family: "Quattrocento";
+  font-weight: 700;
+}
+p {
+  font-family: "Quattrocento Sans";
+  font-size: 0.8em;
+}
+p strong {
+  color: black;
+  font-weight: 700;
+  font-variant-caps: normal;
+}
+q {
+  color: #54839b;
+  font-style: italic;
+  font-family: "Quattrocento Sans";
+  font-weight: 700;
+}
+em {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Quattrocento Sans";
+  color: #54839b;
+}
+strong {
+  color: #b86b58;
+  font-variant-caps: petite-caps;
+}
+
+address {
+  font-family: "Quattrocento Sans";
+  font-weight: 400;
+  text-align: right;
+  color: grey;
+  font-size: 0.8em;
+}
+
+address strong {
+  color: grey;
+  font-weight: 700;
+  font-variant-caps: normal;
+}
+
+#principal {
+  background-color: #b9b7b5;
+}
+#pop {
+  background-color: #f2e3d0;
+}
+
+#rock {
+  background-color: #f2e3d0;
+}
+#subtitle {
+  font-weight: 700;
+  font-family: "Quattrocento Sans";
+  font-size: 1em;
+  letter-spacing: 0.4em;
+}
+.ciudad {
+}
+.artista {
+  color: #328c59;
+}
+.cancion {
+  color: #8b458c;
+  font-variant-caps: petite-caps;
+}
