@@ -85,6 +85,7 @@ h2 {
   color: #e4eaf2;
   text-shadow: 0px 0px 20px #e4eaf2;
 }
+/*Logo barra de nav*/
 #logo {
   padding-left: -5em;
   border-radius: 50px;
@@ -96,13 +97,20 @@ h2 {
   box-shadow: 0px 2px 10px #e4eaf2;
 }
 
+/*Separacion nombre y menu*/
 .navigation div {
   flex-grow: 1;
 }
-
+/*Separacion contactos nav*/
 #espaciado-cont {
   margin-right: 1em;
 }
+
+/*div o seccion
+img{
+  background-size: cover ;
+}
+*/
 
 /*Imagen inicio*/
 
@@ -122,6 +130,8 @@ h2 {
 .soy {
   text-align: center;
 }
+
+/*Imagen caja*/
 .soy div img {
   background-color: #e4eaf2;
   padding: 1em;
@@ -134,6 +144,7 @@ h2 {
   margin-top: -5em;
 }
 
+/*Caja de descripción*/
 #caja {
   background-color: #e4eaf2;
   padding: 1em;

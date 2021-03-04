@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+body {
+  font-family: "Quicksand";
+}
+#portada {
+  background-color: black;
+  margin-left: 4px;
+  color: white;
+  text-align: center;
+}
+
+#portada h1 {
+  font-family: "Roboto Slab";
+  width: 300;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+a {
+  color: white;
+}
+
+img {
+  height: 200px;
+  width: 500px;
+}
+#g01,
+#g03,
+#g05,
+#g07,
+#g09 {
+  background-color: #cadedd;
+}
+#e01,
+#e03,
+#e05,
+#e07,
+#e09 {
+  background-color: #f3df88;
+}
+#g02,
+#g04,
+#g06,
+#g08,
+#g10 {
+  background-color: #f3df88;
+}
+#e02,
+#e04,
+#e06,
+#e08,
+#e10 {
+  background-color: #cadedd;
+}
+
+.linea {
+  display: flex;
+  border-bottom: 2px solid #3c4973;
+}
+
+div.linea h1 {
+  color: #3c4973;
+  text-shadow: 4px 4px 15px black;
+  font-family: "Roboto Slab";
+}
+
+div.linea h1 small {
+  color: #578087;
+  font-family: "Quicksand";
+}
+
+div.linea h2 {
+  color: #35859e;
+}
+
+div.linea h2 strong {
+  background-color: #35859e;
+  color: white;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+div.linea p strong {
+  color: #927c32;
+}
+
+.explicacion {
+  flex-grow: 1;
+}
